@@ -1,2 +1,3 @@
 # MyPortfolioSever
 server
+[LocalhostServer]
