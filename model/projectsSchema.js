@@ -18,6 +18,9 @@ const projectSchema = new mongoose.Schema({
     code: {
         type:String,
         required:true
+    },
+    cloudinary_id: {
+        type:String
     }
     
 });

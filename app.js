@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(cors())
 app.use(router);
 
-app.use("/uploads",express.static("./uploads"));
+// app.use("/project",require("./routes/router"));
 
 
 app.listen(port,()=>{
