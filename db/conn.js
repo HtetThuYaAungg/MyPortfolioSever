@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
 
-const DB = "mongodb+srv://HtetThuYa:hplus@atlascluster.5draz9y.mongodb.net/AddProject?retryWrites=true&w=majority";
+const DB = "mongoUrl";
 
 mongoose.connect(DB, {
     useUnifiedTopology: true,

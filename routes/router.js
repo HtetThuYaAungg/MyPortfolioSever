@@ -105,13 +105,11 @@ router.post('/project',upload.single('photo'), async (req, res) => {
             cloudinary_id: result.public_id,
         });
         await project.save();
-
         res.json(project);
     } catch (err){
         console.log(err);
     }
 })
-
 // project data get
 router.get("/getdata",async(req,res)=>{
     try {
